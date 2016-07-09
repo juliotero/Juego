@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="opcion_un_jugador">Un Jugador</string>
+
+    <string name="opcion_dos_jugadores">Dos Jugadores</string>
+    <string name="nombrejug">Nombre del Jugador</string>
+    <string name="jugar">Jugar!</string>
+</resources>
