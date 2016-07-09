@@ -31,18 +31,20 @@
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/nombre"
+            android:layout_gravity="center_horizontal"
+            android:inputType="text" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:text="@string/jugar"
-            android:id="@+id/button3"
+            android:id="@+id/botonJugar"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/rounder_button"
+            android:background="@drawable/button"
             android:layout_marginTop="50dp"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="empezarJuego" />
     </LinearLayout>
 </RelativeLayout>
