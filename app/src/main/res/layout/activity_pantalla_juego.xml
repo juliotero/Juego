@@ -7,6 +7,161 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.juli.hangman.PantallaJuego">
+    tools:context="com.example.juli.hangman.PantallaJuego"
+    android:background="#fffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/frameLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagen"
+            android:layout_gravity="center_horizontal|top"
+            android:contentDescription="1"
+            android:background="@drawable/imagen1"
+            android:layout_marginTop="45dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:weightSum="1"
+            android:background="@drawable/gradient_background2"
+            android:id="@+id/layoutAgregarLetra">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/fallidas"
+                    android:id="@+id/textView3"
+                    android:textColor="#b60404"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/elegir_letra"
+                android:id="@+id/textView2"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/letra"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:maxLength="1"
+                android:background="#bababa" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/ok"
+                android:id="@+id/boton_ok"
+                android:background="@drawable/button"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/layoutLetras"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra1"
+                android:textColor="#010101"
+                android:layout_marginRight="5dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra2"
+                android:textColor="#010101"
+                android:layout_marginRight="5dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra3"
+                android:textColor="#010101"
+                android:layout_marginRight="5dp"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra4"
+                android:textColor="#010101"
+                android:layout_marginRight="5dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra5"
+                android:textColor="#010101"
+                android:layout_marginRight="5dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/guion"
+                android:id="@+id/letra6"
+                android:textColor="#010101"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </FrameLayout>
 
 </RelativeLayout>
