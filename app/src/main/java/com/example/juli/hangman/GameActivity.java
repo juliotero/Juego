@@ -19,7 +19,7 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
         nombre   = (EditText)findViewById(R.id.nombre);
         Button myTextView=(Button)findViewById(R.id.botonJugar);
-        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/Zachary.ttf");
+        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/GoodDog.otf");
         myTextView.setTypeface(typeFace);
     }
 

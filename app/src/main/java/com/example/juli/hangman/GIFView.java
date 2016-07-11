@@ -30,7 +30,7 @@ public class GIFView extends View {
     }
     private void initializeView() {
     //R.drawable.loader - our animated GIF
-        InputStream is = getContext().getResources().openRawResource(R.raw.baile);
+        InputStream is = getContext().getResources().openRawResource(R.raw.banana);
         mMovie = Movie.decodeStream(is);
     }
 

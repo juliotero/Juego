@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button myTextView=(Button)findViewById(R.id.button);
-        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/Zachary.ttf");
+        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/GoodDog.otf");
         myTextView.setTypeface(typeFace);
     }
 
