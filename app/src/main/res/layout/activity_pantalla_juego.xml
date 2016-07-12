@@ -25,7 +25,6 @@
             android:id="@+id/imagen"
             android:layout_gravity="center_horizontal|top"
             android:contentDescription="@string/resourse"
-            android:background="@drawable/hangman1"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp" />
 
@@ -85,7 +84,8 @@
                 android:id="@+id/boton_ok"
                 android:background="@drawable/button"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="20dp" />
+                android:layout_marginBottom="20dp"
+                android:onClick="clickBotonOK" />
 
         </LinearLayout>
 

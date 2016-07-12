@@ -26,7 +26,7 @@ public class GameActivity extends AppCompatActivity {
     public void empezarJuego(View v){
 
         Intent nueva = new Intent(this, PantallaJuego.class);
-        nueva.putExtra("NOMBRE", nombre.getText());
+        nueva.putExtra("NOMBRE", nombre.getText().toString());
         startActivity(nueva);
     }
 }
