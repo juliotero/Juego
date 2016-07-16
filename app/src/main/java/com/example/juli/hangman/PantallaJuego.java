@@ -239,6 +239,7 @@ public class PantallaJuego extends AppCompatActivity {
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
+        mPlayer.stop();
         Action viewAction = Action.newAction(
                 Action.TYPE_VIEW, // TODO: choose an action type.
                 "PantallaJuego Page", // TODO: Define a title for the content shown.
