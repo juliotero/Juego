@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hangman</string>
+    <string name="app_name">Juego del Ahorcado</string>
     <string name="opcion_un_jugador">Jugar!</string>
 
     <string name="opcion_dos_jugadores">Dos Jugadores</string>
@@ -7,9 +7,36 @@
     <string name="jugar">Jugar!</string>
     <string name="titulo">titulo</string>
     <string name="play">Empezar!</string>
-    <string name="elegir_letra">Elija una letra:</string>
+    <string name="elegir_letra">Elija una letra</string>
     <string name="ok">OK</string>
     <string name="guion">_</string>
     <string name="fallidas">Fallidas:</string>
     <string name="resourse">1</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+    <string name="e">e</string>
+    <string name="l">l</string>
+    <string name="u">u</string>
+    <string name="n">n</string>
+    <string name="g">g</string>
+    <string name="h">h</string>
+    <string name="o">o</string>
+    <string name="m">m</string>
+    <string name="b">b</string>
+    <string name="r">r</string>
+    <string name="v">v</string>
+    <string name="p">p</string>
+    <string name="t">t</string>
+    <string name="f">f</string>
+    <string name="s">s</string>
+    <string name="d">d</string>
+    <string name="i">i</string>
+    <string name="findejuego">FIN DE JUEGO</string>
+    <string name="puntaje">Puntaje:</string>
+    <string name="volverajugar">Seguir Jugando</string>
+    <string name="terminar">Terminar</string>
+    <string name="ganaste">GANASTE!</string>
+    <string name="perdiste">PERDISTE!</string>
+    <string name="tituloinicio">Juego del Ahorcado</string>
+    <string name="salida">Salir</string>
 </resources>

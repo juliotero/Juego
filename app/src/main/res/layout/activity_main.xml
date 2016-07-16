@@ -11,37 +11,66 @@
     tools:context="com.example.juli.hangman.MainActivity"
     android:background="@drawable/gradient_background">
 
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:text="@string/play"
-        android:id="@+id/button"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:textColor="#ffffff"
-        android:background="@drawable/button"
-        android:onClick="empezarJuegoUnJugador"
-        android:textSize="10dp" />
+        android:weightSum="1">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:background="@drawable/titulo"
-        android:contentDescription="@string/titulo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tituloinicio"
+            android:id="@+id/tituloinicio"
+            android:layout_marginTop="54dp"
+            android:textSize="45sp"
+            android:textColor="#ff951c"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
 
-    <com.example.juli.hangman.GIFView
-    android:layout_width="350dp"
-    android:layout_height="250dp"
-    android:layout_marginTop="65dp"
-    components:src="@drawable/baile"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/button" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/play"
+                android:id="@+id/button"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:onClick="empezarJuegoUnJugador"
+                android:textSize="10sp"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/salida"
+                android:id="@+id/button11"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button"
+                android:onClick="salirDelJuego"
+                android:textSize="10sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <com.example.juli.hangman.GIFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        components:src="@drawable/baile" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

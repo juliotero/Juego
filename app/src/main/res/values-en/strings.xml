@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="opcion_un_jugador">Play!!</string>
+
+    <string name="opcion_dos_jugadores">Two Players</string>
+    <string name="nombrejug">Player</string>
+    <string name="jugar">Play!</string>
+    <string name="titulo">tittle</string>
+    <string name="play">Start!</string>
+    <string name="elegir_letra">Choose a letter</string>
+    <string name="ok">OK</string>
+    <string name="guion">_</string>
+    <string name="fallidas">Failed:</string>
+    <string name="resourse">1</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+    <string name="e">e</string>
+    <string name="l">l</string>
+    <string name="u">u</string>
+    <string name="n">n</string>
+    <string name="g">g</string>
+    <string name="h">h</string>
+    <string name="o">o</string>
+    <string name="m">m</string>
+    <string name="b">b</string>
+    <string name="r">r</string>
+    <string name="v">v</string>
+    <string name="p">p</string>
+    <string name="t">t</string>
+    <string name="f">f</string>
+    <string name="s">s</string>
+    <string name="d">d</string>
+    <string name="i">i</string>
+    <string name="findejuego">END OF GAME</string>
+    <string name="puntaje">Score:</string>
+    <string name="volverajugar">Keep Playing</string>
+    <string name="terminar">Finish</string>
+    <string name="ganaste">YOU WON!</string>
+    <string name="perdiste">YOU LOOSER!</string>
+    <string name="tituloinicio">Hangman Game</string>
+    <string name="salida">Exit</string>
+</resources>
